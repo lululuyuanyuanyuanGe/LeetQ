@@ -13,8 +13,6 @@ class Solution(object):
                 if s[j] not in temp_substring:
                     temp_substring += s[j]
                 else:
-                    if len(temp_substring) > len(substring):
-                        substring = temp_substring
                     break
             if len(temp_substring) > len(substring):
                 substring = temp_substring
