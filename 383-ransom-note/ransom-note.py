@@ -13,6 +13,4 @@ class Solution:
                     del mag_letters[l]
             else:
                 return False
-        
         return True
-            
